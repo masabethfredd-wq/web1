@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollo Web de Alto Rendimiento | Convierte Visitas en Clientes</title>
+  <meta name="description" content="Desarrollo web profesional con código limpio y velocidad extrema. Webs que cargan en menos de 1 segundo y convierten leads de alto valor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- NAVIGATION -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">◆</span>
+        <span class="nav__logo-text">DevSenior</span>
+      </a>
+      <div class="nav__links">
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#proceso" class="nav__link">Proceso</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+        <a href="#contacto" class="nav__cta-btn">Quiero mi auditoría</a>
+      </div>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- HERO SECTION -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__inner container">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Disponibilidad limitada: 2 proyectos simultáneos
+      </div>
+      <h1 class="hero__h1">
+        Tu web no es un escaparate.<br>
+        <span class="hero__h1-accent">Es tu mejor vendedor.</span>
+      </h1>
+      <p class="hero__sub">
+        Desarrollo web de alto rendimiento con código limpio y velocidad extrema.
+        Webs que cargan en <strong>menos de 1 segundo</strong> y convierten visitas
+        en clientes reales — sin constructores visuales, sin dependencias, sin excusas.
+      </p>
+      <div class="hero__ctas">
+        <a href="#contacto" class="btn btn--primary btn--lg">
+          Quiero mi auditoría gratuita
+          <svg class="btn__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+      </div>
+      <div class="hero__proof">
+        <div class="hero__proof-item">
+          <span class="hero__proof-number">98</span>
+          <span class="hero__proof-label">Score Lighthouse</span>
+        </div>
+        <div class="hero__proof-divider"></div>
+        <div class="hero__proof-item">
+          <span class="hero__proof-number">&lt;1s</span>
+          <span class="hero__proof-label">Tiempo de carga</span>
+        </div>
+        <div class="hero__proof-divider"></div>
+        <div class="hero__proof-item">
+          <span class="hero__proof-number">0</span>
+          <span class="hero__proof-label">Constructores visuales</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PROBLEM AGITATION -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="problem" id="problema">
+    <div class="problem__inner container">
+      <div class="problem__label">El problema real</div>
+      <h2 class="problem__h2">
+        Tienes una web <span class="strikethrough">bonita</span>.<br>
+        Pero no te trae clientes.
+      </h2>
+      <div class="problem__grid">
+        <div class="problem__card">
+          <div class="problem__card-icon">🐌</div>
+          <h3 class="problem__card-title">Carga lenta = dinero perdido</h3>
+          <p class="problem__card-text">
+            Cada segundo de retraso reduce un 7% tus conversiones.
+            Tu web con WordPress y 30 plugins tarda 4-6 segundos.
+            Tus clientes se van antes de leerte.
+          </p>
+        </div>
+        <div class="problem__card">
+          <div class="problem__card-icon">🎨</div>
+          <h3 class="problem__card-title">Bonita pero estéril</h3>
+          <p class="problem__card-text">
+            Tu diseñador hizo algo visualmente atractivo. Pero nadie
+            rellena el formulario, nadie llama, nadie compra. La estética
+            sin estrategia es un decorado vacío.
+          </p>
+        </div>
+        <div class="problem__card">
+          <div class="problem__card-icon">🔒</div>
+          <h3 class="problem__card-title">Atrapado en el ecosistema</h3>
+          <p class="problem__card-text">
+            Constructores visuales, temas premium, plugins de terceros.
+            No controlas tu propio código. Cada cambio depende de
+            terceros y cuesta dinero.
+          </p>
+        </div>
+      </div>
+      <p class="problem__closing">
+        Si tu web no está diseñada para convertir, solo tienes un PDF bonito
+        en internet. <strong>Esto es lo que deberías tener en su lugar:</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- SOLUTION / USP -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="solution" id="solucion">
+    <div class="solution__inner container">
+      <div class="solution__label">La solución</div>
+      <h2 class="solution__h2">
+        Código puro. Velocidad brutal.<br>
+        <span class="solution__h2-accent">Control total.</span>
+      </h2>
+      <p class="solution__intro">
+        No uso WordPress. No uso constructores. No uso temas genéricos.
+        Cada línea de código está escrita para un solo objetivo:
+        <strong>que tu web convierta más que la de tu competencia.</strong>
+      </p>
+      <div class="solution__features">
+        <div class="solution__feature">
+          <div class="solution__feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <div>
+            <h3 class="solution__feature-title">Velocidad extrema</h3>
+            <p class="solution__feature-text">HTML, CSS y JS puro. Sin dependencias innecesarias. Tu web carga en menos de 1 segundo en cualquier dispositivo del mundo.</p>
+          </div>
+        </div>
+        <div class="solution__feature">
+          <div class="solution__feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h3 class="solution__feature-title">SEO técnico sólido</h3>
+            <p class="solution__feature-text">Estructura semántica, datos estructurados, meta tags optimizados. Google entiende tu web desde el primer rastreo.</p>
+          </div>
+        </div>
+        <div class="solution__feature">
+          <div class="solution__feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div>
+            <h3 class="solution__feature-title">Diseño conversion-first</h3>
+            <p class="solution__feature-text">Cada elemento tiene un propósito. Jerarquía visual clara, CTAs estratégicos y copy orientado a acción. Sin ruido.</p>
+          </div>
+        </div>
+        <div class="solution__feature">
+          <div class="solution__feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div>
+            <h3 class="solution__feature-title">Código 100% tuyo</h3>
+            <p class="solution__feature-text">Sin plugins, sin licencias, sin dependencias. El código es tuyo. Puedes llevarlo a cualquier hosting, modificarlo o escalarlo cuando quieras.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- SERVICES / AUTHORITY -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="services" id="servicios">
+    <div class="services__inner container">
+      <div class="services__label">Servicios</div>
+      <h2 class="services__h2">Lo que construyo para ti</h2>
+      <p class="services__intro">
+        Cada servicio está diseñado como un sistema de conversión.
+        No son páginas sueltas: son máquinas de capturar y convertir leads.
+      </p>
+      <div class="services__grid">
+
+        <div class="services__card">
+          <div class="services__card-number">01</div>
+          <h3 class="services__card-title">Landing Pages<br>de Alta Conversión</h3>
+          <p class="services__card-desc">
+            Páginas únicas con un único objetivo: que el visitante realice la acción
+            que tú quieres. Copy persuasivo, diseño enfocado y velocidad de carga brutal.
+          </p>
+          <ul class="services__card-list">
+            <li>Copywriting de neuromarketing incluido</li>
+            <li>Score Lighthouse 95+</li>
+            <li>A/B testing preparado</li>
+            <li>Integración con tu CRM</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Solicitar landing</a>
+        </div>
+
+        <div class="services__card services__card--featured">
+          <div class="services__card-ribbon">Más solicitado</div>
+          <div class="services__card-number">02</div>
+          <h3 class="services__card-title">Embudos de Venta<br>Completos</h3>
+          <p class="services__card-desc">
+            Desde el primer clic hasta la compra: landing de captura, página de
+            ventas, upsell y confirmación. Todo conectado y midiendo cada paso.
+          </p>
+          <ul class="services__card-list">
+            <li>Estrategia de embudo personalizada</li>
+            <li>Secuencia de emails automatizada</li>
+            <li>Píxeles de seguimiento configurados</li>
+            <li>Dashboard de métricas en tiempo real</li>
+          </ul>
+          <a href="#contacto" class="btn btn--primary">Construir mi embudo</a>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-number">03</div>
+          <h3 class="services__card-title">Automatizaciones<br>Inteligentes</h3>
+          <p class="services__card-desc">
+            Que tu web trabaje mientras duermes. Automatizaciones que
+            capturan, segmentan y nutren leads sin intervención manual.
+          </p>
+          <ul class="services__card-list">
+            <li>Chatbots con IA integrada</li>
+            <li>Flujos de email automatizados</li>
+            <li>Integración con WhatsApp Business</li>
+            <li>Webhooks y APIs a medida</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Automatizar mi negocio</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PROCESS -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="process" id="proceso">
+    <div class="process__inner container">
+      <div class="process__label">Proceso</div>
+      <h2 class="process__h2">De la auditoría al lanzamiento en 4 pasos</h2>
+      <div class="process__timeline">
+        <div class="process__step">
+          <div class="process__step-number">1</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Auditoría técnica gratuita</h3>
+            <p class="process__step-text">Analizo tu web actual: velocidad, SEO, estructura, conversión. Te envío un informe con los puntos críticos y oportunidades reales de mejora.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-number">2</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Estrategia y copy</h3>
+            <p class="process__step-text">Defino la arquitectura de conversión: mensajes, flujos de usuario, jerarquía de contenido. El copy se escribe antes que una sola línea de código.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-number">3</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Desarrollo y testing</h3>
+            <p class="process__step-text">Construyo con código limpio. Testeo en múltiples dispositivos, navegadores y conexiones. Optimizo cada asset para velocidad máxima.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-number">4</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Lanzamiento y monitorización</h3>
+            <p class="process__step-text">Despliego, configuro analítica y monitorizo las primeras semanas. Ajusto en base a datos reales, no suposiciones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- SOCIAL PROOF / GUARANTEE -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="proof" id="prueba">
+    <div class="proof__inner container">
+      <div class="proof__label">Resultados reales</div>
+      <h2 class="proof__h2">Lo que dicen mis clientes</h2>
+      <div class="proof__grid">
+
+        <div class="proof__card">
+          <div class="proof__card-stars">★★★★★</div>
+          <blockquote class="proof__card-quote">
+            "Pasamos de una web en WordPress que tardaba 5 segundos a una landing
+            en código puro que carga en 0.8s. Las consultas se triplicaron en el
+            primer mes. No es magia, es ingeniería."
+          </blockquote>
+          <div class="proof__card-author">
+            <div class="proof__card-avatar">MR</div>
+            <div>
+              <div class="proof__card-name">María Rodríguez</div>
+              <div class="proof__card-role">CEO, Consultora Legal MR</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proof__card">
+          <div class="proof__card-stars">★★★★★</div>
+          <blockquote class="proof__card-quote">
+            "Necesitaba un embudo completo para mi lanzamiento. En 2 semanas
+            tenía todo funcionando: landing, secuencia de emails y página de pago.
+            El ROI fue de 8x la inversión."
+          </blockquote>
+          <div class="proof__card-author">
+            <div class="proof__card-avatar">CL</div>
+            <div>
+              <div class="proof__card-name">Carlos López</div>
+              <div class="proof__card-role">Fundador, AcademyPro</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proof__card">
+          <div class="proof__card-stars">★★★★★</div>
+          <blockquote class="proof__card-quote">
+            "Lo mejor es que el código es mío. No dependo de plugins, no pago
+            licencias, no espero a que nadie me arregle nada. Control total
+            y velocidad real."
+          </blockquote>
+          <div class="proof__card-author">
+            <div class="proof__card-avatar">AG</div>
+            <div>
+              <div class="proof__card-name">Ana García</div>
+              <div class="proof__card-role">Directora de Marketing, FinTech Solutions</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Guarantee -->
+      <div class="proof__guarantee">
+        <div class="proof__guarantee-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <div class="proof__guarantee-content">
+          <h3 class="proof__guarantee-title">Garantía de rendimiento técnico</h3>
+          <p class="proof__guarantee-text">
+            Si tu web no alcanza un score mínimo de 90 en Google Lighthouse en las
+            categorías de rendimiento, accesibilidad y SEO, trabajo sin coste adicional
+            hasta conseguirlo. Sin letra pequeña.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- FAQ -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq__inner container">
+      <div class="faq__label">Preguntas frecuentes</div>
+      <h2 class="faq__h2">Dudas que probablemente tengas</h2>
+
+      <div class="faq__list">
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Cuánto cuesta una web así?</span>
+            <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>
+              No trabajo con precios fijos porque cada proyecto es diferente. Una landing
+              de alta conversión parte desde 1.500€. Un embudo completo con automatizaciones
+              desde 4.000€. Lo que sí te garantizo es que la inversión se paga sola:
+              si tu web actualmente no genera leads, el coste de NO cambiarla es mucho mayor.
+              Solicita tu auditoría gratuita y te envío un presupuesto ajustado a tu realidad.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Cuánto tiempo tarda el desarrollo?</span>
+            <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Una landing page: 7-10 días laborables. Un embudo completo: 2-3 semanas.
+              Trabajo con máximo 2 proyectos simultáneos, así que tu proyecto recibe
+              atención exclusiva. No prometo plazos irreales — prometo cumplir los que
+              doy. Y si por cualquier motivo hay un retraso, lo sabrás antes de que
+              ocurra, no después.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Qué pasa cuando necesite hacer cambios?</span>
+            <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>
+              El código es tuyo. Puedes modificarlo tú, llevártelo a otro desarrollador
+              o pedirme los cambios. Ofrezco packs de mantenimiento mensual (desde 150€/mes)
+              que incluyen actualizaciones, monitorización y ajustes de conversión basados
+              en datos. Pero nunca estarás atado a mí ni a ninguna plataforma.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>¿Por qué no usar WordPress o un constructor?</span>
+            <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>
+              WordPress es genial para blogs y proyectos que necesitan un CMS. Pero si
+              tu objetivo es convertir leads, WordPress añade capas de complejidad que
+              ralentizan tu web y te hacen dependiente de plugins. Un sitio en código
+              puro carga más rápido, es más seguro, no necesita actualizaciones constantes
+              y te da control total. Es la diferencia entre alquilar un local y ser
+              propietario.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- FINAL CTA / CONTACT -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="contact" id="contacto">
+    <div class="contact__inner container">
+      <div class="contact__content">
+        <h2 class="contact__h2">
+          Tu web debería estar generando clientes.<br>
+          <span class="contact__h2-accent">No esperando que alguien la visite.</span>
+        </h2>
+        <p class="contact__sub">
+          Solicita tu auditoría técnica gratuita. Analizo tu web actual y te
+          muestro exactamente qué está fallando y cómo solucionarlo. Sin compromiso,
+          sin letra pequeña, sin ventas agresivas.
+        </p>
+        <div class="contact__urgency">
+          <span class="contact__urgency-dot"></span>
+          Trabajo con un máximo de <strong>2 proyectos simultáneos</strong> para
+          garantizar la exclusividad técnica que tu marca merece.
+        </div>
+      </div>
+      <form class="contact__form" id="contactForm">
+        <div class="contact__form-group">
+          <label for="name" class="contact__label">Nombre completo</label>
+          <input type="text" id="name" name="name" class="contact__input" placeholder="Tu nombre" required>
+        </div>
+        <div class="contact__form-group">
+          <label for="email" class="contact__label">Email profesional</label>
+          <input type="email" id="email" name="email" class="contact__input" placeholder="tu@empresa.com" required>
+        </div>
+        <div class="contact__form-group">
+          <label for="url" class="contact__label">URL de tu web actual</label>
+          <input type="url" id="url" name="url" class="contact__input" placeholder="https://tuweb.com">
+        </div>
+        <div class="contact__form-group">
+          <label for="project" class="contact__label">¿Qué necesitas?</label>
+          <select id="project" name="project" class="contact__input contact__select">
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="landing">Landing page de alta conversión</option>
+            <option value="funnel">Embudo de venta completo</option>
+            <option value="automation">Automatizaciones inteligentes</option>
+            <option value="other">Otro / No estoy seguro</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--full">
+          Quiero mi auditoría gratuita
+          <svg class="btn__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+        <p class="contact__privacy">
+          🔒 Tu información es confidencial. No spam, no compartición de datos.
+          Respuesta en menos de 24h.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <span class="footer__logo">◆ DevSenior</span>
+        <p class="footer__tagline">Código puro. Velocidad brutal. Resultados reales.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 DevSenior. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
